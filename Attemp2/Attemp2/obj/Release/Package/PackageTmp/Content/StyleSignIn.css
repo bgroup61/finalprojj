@@ -1,0 +1,43 @@
+﻿p, b {
+    color: white;
+}
+
+radio {
+    display: flex;
+}
+
+.containerform {
+    background-color: black;
+    padding: 30px;
+    margin: 0px auto;
+    width: 500px;
+    height: 100px;
+}
+
+input {
+    border: 12px solid;
+    border-radius: 2px;
+    background: white;
+    margin-top: 20px;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: double 4px #6aeff5;
+}
+
+#sub {
+    background-color: #6aeff5;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 80px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+#formid1 {
+    margin-top: 30px;
+}

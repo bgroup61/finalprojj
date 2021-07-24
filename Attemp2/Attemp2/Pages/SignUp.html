@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../Content/StyleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="../Content/StyleForm.css" rel="stylesheet" />
+    <script src="../Scripts/ajaxCalls.js"></script>
+    <script src="../Scripts/SignUpScript.js"></script>
+    <link href="../Content/StyleSignUP.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <a href="HomePage.html" class="logo">Movie-Web</a>
+        <div class="header-right">
+            <a href="HomePage.html">Home</a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search..." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+
+
+        </div>
+    </header>
+    <content>
+
+        <form id="formid">
+
+            <div class="container">
+                <label for="name"><b>First Name</b></label>
+                <input type="text" placeholder="First Name" id="name" required>
+                <label for="lname"><b>Last Name</b></label>
+                <input type="text" placeholder="Last Name" id="lname" required>
+                <p style="color:white">Gender</p>
+                <input class="w3-radio" type="radio" id="female" name="drone" value="female">
+                <label style="color:white">Female</label><br>
+                <input class="w3-radio" type="radio" id="male"name="drone" value="male">
+                <label style="color:white">Male</label><br>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" id="email" required>
+                <label for="birthday"><b>Birthday:</b></label>
+                <input type="date" id="birthday" name="birthday">
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Password" id="psw" required>
+                <label for="tel"><b>Telephone</b></label>
+                <input type="tel" id="tel" placeholder="Telephone" pattern="[0-9]{10}" required>
+                <p>Favorite Category : </p>
+                <select id="Category">
+                    <option value="select">Select</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Romantic">Romantic</option>
+                    <option value="Medical">Medical</option>
+                    <option value="Horror">Horror</option>
+                    <option value="Crime">Crime</option>
+                    <option value="Hitorical">Hitorical</option>
+                    <option value="Political">Political</option>
+                </select>
+                <br /><br /><br />
+                <button id="btn" type="submit">signUp</button>
+
+            </div>
+
+        </form>
+
+    </content>
+</body>
+</html>

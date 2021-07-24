@@ -1,0 +1,122 @@
+﻿body{
+    background-color:black;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.card-title {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.card-text {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+p {
+    color: lightskyblue;
+    font-size: 15px;
+    text-align: left;
+}
+
+#details {
+    font-size: 20px;
+    color: aqua;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+multi-item3 {
+    margin-top: 200px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#img {
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+.col-md-2 {
+    margin-top: 60px;
+    position: relative;
+}
+
+.btn {
+    margin-left: 765px;
+    border: 2px solid lightskyblue;
+    color: lightskyblue;
+    margin-top: 60px;
+}
+
+.card-body > button {
+    border: 2px solid lightskyblue;
+    color: black;
+    margin-left: 50px;
+}
+
+button {
+    border: 2px solid lightskyblue;
+    color: black;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#likee {
+    border: 2px solid lightskyblue;
+    color: black;
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+card {
+    background-color: black;
+    padding: 5px 10px;
+    border: 2px solid #6aeff5;
+    width: 30px;
+    height: 40px;
+}
+
+
+    card > img {
+        /position: relative;
+        / width: 100%;
+        height: 40px;
+    }
+
+/* vertical line */
+.vl {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #ddd;
+    height: 3px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px 10px;
+}

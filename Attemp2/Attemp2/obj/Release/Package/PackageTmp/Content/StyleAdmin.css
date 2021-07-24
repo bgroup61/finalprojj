@@ -1,0 +1,23 @@
+﻿
+body {
+    background-color: black;
+}
+
+table {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+tr, td, th {
+    border: 2px solid aqua;
+    color: white;
+    font-size: 18px;
+}
+
+div {
+    color: white;
+}
+

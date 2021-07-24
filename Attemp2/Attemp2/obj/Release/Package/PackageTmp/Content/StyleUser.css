@@ -1,0 +1,30 @@
+﻿body {
+    background-color: black;
+}
+
+div {
+    color: white;
+    font-size: 20px;
+}
+
+#userPH {
+    text-align: center;
+}
+
+#episodesPH {
+    text-align: center;
+}
+
+table {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+tr, td, th {
+    border: 2px solid aqua;
+    color: white;
+    font-size: 20px;
+}

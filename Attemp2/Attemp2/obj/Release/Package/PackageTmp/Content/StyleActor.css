@@ -1,0 +1,52 @@
+﻿/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 70px;
+    height: 30px;
+    /position:fixed;
+    /
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    font-size: 20px;
+    color: aqua;
+}
+
+table {
+    width: 70%;
+    margin-top: 210px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+tr, td, th {
+    border: 2px solid aqua;
+    color: white;
+    font-size: 20px;
+}
+
+img {
+    width: 50%;
+    height: 150%;
+    margin-left: 30px;
+}
+
+
